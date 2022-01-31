@@ -4,4 +4,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: palevioletred;
+    box-shadow: 12px 12px 12px 12px purple;
 }

@@ -1,0 +1,36 @@
+.loginMain {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftHalf {
+    background-color: orange;
+    width: 60%;
+    height: 100vh;
+}
+
+.rightHalf {
+    background-color: rgb(255, 153, 0);
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -25px -1px 59px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -25px -1px 59px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -25px -1px 59px -12px rgba(0,0,0,0.75);
+}
+
+.inputBlock {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: purple; */
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
